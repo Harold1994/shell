@@ -1,7 +1,8 @@
 #!/bin/sh
 
-for foo in bar fud 43
+for foo in $(cat file.txt) 
 do
-    echo $foo
+     echo $foo
+      
 done
 exit 0
